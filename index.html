@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #f7f9fb;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e6eef9;
+      --radius: 12px;
+      --max-width: 900px;
+      --gap: 20px;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #0f172a;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      background: linear-gradient(180deg, var(--bg), #eef6ff 60%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .container{
+      max-width: var(--max-width);
+      margin: 40px auto;
+      padding: 28px;
+    }
+
+    .card{
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: 0 6px 20px rgba(16,24,40,0.06);
+      border: 1px solid var(--border);
+      padding: 28px;
+    }
+
+    header{
+      display:flex;
+      align-items:flex-start;
+      gap:18px;
+      margin-bottom: 18px;
+    }
+
+    .logo{
+      width:56px;
+      height:56px;
+      border-radius:10px;
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      font-weight:700;
+      font-size:20px;
+      flex:0 0 56px;
+      box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+    }
+
+    h1{
+      margin:0;
+      font-size:20px;
+      letter-spacing:-0.2px;
+    }
+
+    .meta{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    nav.toc{
+      margin: 18px 0 24px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    nav.toc a{
+      background: #f1f9ff;
+      color: var(--accent);
+      text-decoration:none;
+      padding:8px 12px;
+      border-radius:999px;
+      font-size:13px;
+      border:1px solid rgba(37,99,235,0.06);
+    }
+
+    section.policy-section{
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px dashed #eef2ff;
+    }
+
+    section.policy-section:last-of-type{
+      border-bottom: none;
+      margin-bottom:0;
+    }
+
+    h2.section-title{
+      font-size:16px;
+      margin:0 0 8px 0;
+    }
+
+    p.lead{
+      margin:0 0 12px 0;
+      color:#111827;
+      line-height:1.5;
+    }
+
+    ul.points{
+      margin:0 0 12px 18px;
+      color: #111827;
+      line-height:1.55;
+    }
+
+    .muted{
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    footer{
+      margin-top:22px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      border-top:1px solid #f0f6ff;
+      padding-top:14px;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:white;
+      padding:9px 14px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      font-size:13px;
+      box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+      border: none;
+      display:inline-block;
+    }
+
+    @media (max-width:600px){
+      .container{ padding:18px; margin:20px auto; }
+      header{ gap:12px; }
+      .logo{ width:48px; height:48px; font-size:18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="card" role="main" aria-labelledby="page-title">
+      <header>
+        <div class="logo" aria-hidden="true">PP</div>
+        <div>
+          <h1 id="page-title">Privacy Policy</h1>
+          <div class="meta">Effective date: <span class="muted">September 19, 2025</span></div>
+        </div>
+      </header>
+
+      <p class="muted">This Privacy Policy explains how the app handles user information. If you do not find an answer below, please contact us using the email in the Contact Us section.</p>
+
+      <nav class="toc" aria-label="Quick links">
+        <a href="#data-collection">Data Collection</a>
+        <a href="#data-usage">Data Usage</a>
+        <a href="#storage-deletion">Data Storage &amp; Deletion</a>
+        <a href="#internet-usage">Internet Usage</a>
+        <a href="#language-support">Language Support</a>
+        <a href="#policy-updates">Policy Updates</a>
+        <a href="#contact-us">Contact Us</a>
+      </nav>
+
+      <!-- Sections from JSON -->
+      <section id="data-collection" class="policy-section">
+        <h2 class="section-title">Data Collection</h2>
+        <p class="lead">We collect minimal personal information to enhance your app experience:</p>
+        <ul class="points">
+          <li><strong>Email and Name:</strong> You may optionally provide your name and email for your profile within the app.</li>
+          <li><strong>No authentication required:</strong> No authentication or login is required to use the app.</li>
+          <li><strong>No sensitive data or permissions:</strong> We do not collect any sensitive personal data or access device permissions like contacts, location, camera, or storage.</li>
+        </ul>
+      </section>
+
+      <section id="data-usage" class="policy-section">
+        <h2 class="section-title">Data Usage</h2>
+        <p class="lead">Your profile details are used only within the app:</p>
+        <ul class="points">
+          <li>Your email and name are used only to personalize your profile.</li>
+          <li>Expense-related data (amount, category, notes, etc.) is stored locally on your device.</li>
+          <li>The app does not share, transmit, or upload any information to external servers.</li>
+        </ul>
+      </section>
+
+      <section id="storage-deletion" class="policy-section">
+        <h2 class="section-title">Data Storage &amp; Deletion</h2>
+        <p class="lead">All data is stored locally on your device using secure storage mechanisms.</p>
+        <ul class="points">
+          <li>We do not store any data on remote servers or cloud storage.</li>
+          <li>When the app is uninstalled, all stored data — including expenses and profile details — is permanently deleted.</li>
+        </ul>
+      </section>
+
+      <section id="internet-usage" class="policy-section">
+        <h2 class="section-title">Internet Usage</h2>
+        <p class="lead">The app functions fully offline and does not require internet access.</p>
+        <ul class="points">
+          <li>No data is transmitted over the internet.</li>
+          <li>No analytics, advertisements, or trackers are used in the app.</li>
+        </ul>
+      </section>
+
+      <section id="language-support" class="policy-section">
+        <h2 class="section-title">Language Support</h2>
+        <p class="lead">The app is available in the following languages:</p>
+        <ul class="points">
+          <li>English</li>
+          <li>Hindi</li>
+        </ul>
+        <p class="lead" style="margin-top:8px;">You can switch the language from within the app settings.</p>
+      </section>
+
+      <section id="policy-updates" class="policy-section">
+        <h2 class="section-title">Policy Updates</h2>
+        <p class="lead">We may update this Privacy Policy from time to time.</p>
+        <ul class="points">
+          <li>Any changes will be clearly communicated in the app or on the official store page.</li>
+        </ul>
+      </section>
+
+      <section id="contact-us" class="policy-section">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="lead">If you have any questions or concerns about this Privacy Policy, feel free to reach out to us:</p>
+        <ul class="points">
+          <li>Email: <strong>REPLACE_SUPPORT_EMAIL</strong></li>
+        </ul>
+      </section>
+
+      <footer>
+        <div class="muted">Last updated: September 19, 2025</div>
+        <div>
+          <a class="btn" href="#contact-us">Contact Support</a>
+        </div>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
